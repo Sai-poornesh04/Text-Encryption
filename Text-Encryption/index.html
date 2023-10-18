@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Encryption And Decryption</h2>
+
+    <label for="message">Enter Message:</label><br>
+    <input type="text" id="message" name="message"><br>
+
+    <label for="key">Enter Key:</label><br>
+    <input type="text" id="key" name="key"><br>
+
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+
+    <p id="output"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
